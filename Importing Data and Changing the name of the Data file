@@ -1,0 +1,12 @@
+import pandas as pd
+import numpy as np
+data = "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DA0101EN-SkillsNetwork/labs/Data%20files/auto.csv"
+df = pd.read_csv(data,header=None)
+
+#Here we dont want the index to be stored.
+
+import pandas as pd
+import numpy as np
+data = "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DA0101EN-SkillsNetwork/labs/Data%20files/auto.csv"
+df = pd.read_csv(data,header=None)
+df.to_csv("nisha.csv",index=False)
